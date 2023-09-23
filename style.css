@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 
+        right 50vw bottom 40vh,
+        left 50vw top 40vh;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.container{
+    border-radius: 10px;
+    width: 400px;
+    max-height: fit-content;
+    background-color: rgba(240, 248, 255, 0.897);   
+}
+
+.victor{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.victor-image{
+    width: 5.5em;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    bottom: 50%;
+
+    
+}
+
+.text{
+    text-align: center;
+}
+
+.numbers{
+    display: flex;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.bg-pattern{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:400px;
+    height: 150px;
+}
+
+h{
+    font-size: medium;
+}
+
+span{
+    color: grey;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.city-name{
+    color: grey;
+}
+
+.profile-name{
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
